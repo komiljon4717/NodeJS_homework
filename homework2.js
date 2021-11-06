@@ -49,36 +49,46 @@
 
 
 // Exercise Grade
-function ExerciseGrade(array){
-    let generalPoint = 0;
-    for (let i = 0; i < array.length; i++) {
-        generalPoint += array[i];
+// function ExerciseGrade(array){
+//     let generalPoint = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         generalPoint += array[i];
+//     }
+//     let overBall = generalPoint / array.length
+
+//     if (overBall <= 59) {
+//         return console.log('F');
+//     }
+//     if (overBall <= 69) {
+//         return console.log('D');
+//     }
+//     if (overBall <= 79) {
+//         return console.log('C');
+//     }
+//     if (overBall <= 89) {
+//         return console.log('B');
+//     }
+//     else{
+//         console.log('A');
+//     }
+// }
+
+// let arr = [80, 60, 70, 90]
+// ExerciseGrade(arr)
+
+
+
+// 3 & 5
+function findCollected(num){
+    let collected = 0
+    for (let i = 1; i <= num; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            collected += i
+        }
     }
-    let overBall = generalPoint / array.length
-    
-    if (overBall <= 59) {
-        return console.log('F');
-    }
-    if (overBall <= 69) {
-        return console.log('D');
-    }
-    if (overBall <= 79) {
-        return console.log('C');
-    }
-    if (overBall <= 89) {
-        return console.log('B');
-    }
-    else{
-        console.log('A');
-    }
-    
+    return collected
 }
-let arr = [80, 60, 70, 90]
-ExerciseGrade(arr)
-
-
-
-
+console.log(findCollected(30));
 
 
 
