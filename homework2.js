@@ -125,16 +125,33 @@
 
 // Truthy value
 
-function truthy(val){
-    if (val == 0 || val == false || val == "" || val == null || val == undefined || val == NaN || val == -0) {
-        console.log("Falsy value");
-    }
-    else{
-        console.log('Truthy value');
-    }
-}
-truthy(NaN)
+// function truthy(val){
+//     if (val == 0 || val == false || val == "" || val == null || val == undefined || val == NaN || val == -0) {
+//         console.log("Falsy value");
+//     }
+//     else{
+//         console.log('Truthy value');
+//     }
+// }
+// truthy(NaN)
 
+
+// showNumber
+function showNumber(num){
+    let odd_num = 0
+    let couple_num = 0
+    for (let i = 1; i <= num; i++) {
+        if (i % 2 == 0) {
+            couple_num++
+        }
+        else{
+            odd_num++
+        }
+    }
+    console.log(odd_num + ' odd number');
+    console.log(couple_num + ' couple number');
+}
+showNumber(20)
 
 
 
