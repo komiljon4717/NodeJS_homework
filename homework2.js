@@ -14,21 +14,45 @@
 
 // Prime Number
 
-function FindPrimeNumber(num){
-    let sanoq = 0
-    for (let i = 2; i <= num / 2; i++) {
-        if (num % i == 0) {
-            sanoq++;
-        }
-    }
-    if (sanoq == 0) {
-        console.log("Prime Number");       
-    }
-    else{
-        console.log("Not Prime Number");
+// function FindPrimeNumber(num){
+//     let sanoq = 0
+//     for (let i = 2; i <= num / 2; i++) {
+//         if (num % i == 0) {
+//             sanoq++;
+//         }
+//     }
+//     if (sanoq == 0) {
+//         console.log("Prime Number");       
+//     }
+//     else{
+//         console.log("Not Prime Number");
+//     }
+// }
+// FindPrimeNumber(7)
+
+
+// Star
+function showStar(num){
+    for (let i = 1; i <= num; i++) {
+        for (let j = 1; j <= i; j++) {
+            process.stdout.write(" *"); 
+        }   
+        console.log(' ');  
     }
 }
-FindPrimeNumber(7)
+showStar(5)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
