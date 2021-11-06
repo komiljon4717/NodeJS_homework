@@ -79,21 +79,61 @@
 
 
 // 3 & 5
-function findCollected(num){
-    let collected = 0
-    for (let i = 1; i <= num; i++) {
-        if (i % 3 == 0 || i % 5 == 0) {
-            collected += i
-        }
+// function findCollected(num){
+//     let collected = 0
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 3 == 0 || i % 5 == 0) {
+//             collected += i
+//         }
+//     }
+//     return collected
+// }
+// console.log(findCollected(30));
+
+
+
+
+
+// log str incomplete
+
+// function chack(allData){
+//     for (let i = 0; i < allData.length; i++) {
+//         // if (allData === 'string') {
+//         //     console.log(allData[i]);
+//         // }
+//     }
+//     console.log(allData);
+// }
+
+
+// obj = {
+//     name: 'Komiljon',
+//     username: 'Nosirov',
+//     age: 22,
+//     phoneNumber: 1083474
+// }
+
+// for (const key in obj) {
+//     // console.log(key);
+//     for (let i = 0; i < obj.length; i++) {
+//        console.log(key[i]) 
+//     }
+// }
+
+
+
+
+// Truthy value
+
+function truthy(val){
+    if (val == 0 || val == false || val == "" || val == null || val == undefined || val == NaN || val == -0) {
+        console.log("Falsy value");
     }
-    return collected
+    else{
+        console.log('Truthy value');
+    }
 }
-console.log(findCollected(30));
-
-
-
-
-
+truthy(NaN)
 
 
 
