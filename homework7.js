@@ -266,14 +266,24 @@ let sen = "Mening Ismim Komiljon"
 // console.log(last([1, 2, 3], 9));
 
 
+/*=====================================================*/
+
+function chack_array(array, target) {
+    let new_arr = []
+    for (let i = 0; i < array.length; i++) {
+        for (let k = 0; k < array.length; k++) {
+            if (array[i] + array[k]== target) {
+                new_arr.push(i, k)
+                return new_arr
+            }
+        }
+    }
+}
 
 
-
-
-
-
-
-
+let arr = [2, 7, 11, 15]
+console.log(chack_array(arr,9)
+);
 
 
 
