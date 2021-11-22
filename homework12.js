@@ -27,11 +27,23 @@
 // how_many_seconds(2)
 
 
-/*============symmetrical===================*/
+/*============find the largest Ar===================*/
 
+// function find_sum(...args) {
+//     let max = []
+//     for (let i = 0; i < args.length; i++) {
+        
+//         max.push(Math.max(...args[i]))
+        
+//     }
+//     console.log(max)
+// }
 
+// let arr1 = [1, 3, 6, 7]
+// let arr2 = [14, 25, 65, 70]
+// let arr3 = [100, 8, 900, 500]
 
-
+// find_sum(arr1, arr2, arr3)
 
 
 
