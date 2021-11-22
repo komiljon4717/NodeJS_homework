@@ -87,18 +87,18 @@ create_user("johnASS007", "johnASS1012")
 
 
 console.log(user_arr);
-todos("johnUwik007", "johnUwik1012", "salom churvaqalar")
 
 let todo_id = 1
 function todos(username, password, todo_txt) {
+    let obj7 = {}
     for (let i = 0; i < user_arr.length; i++) {
         if (user_arr[i].username === username && user_arr[i].password === password) {
-            let obj7 = {
-                // todo_id,
+            obj7 = {
+                todo_id,
                 todo_txt,
                 user_id: user_arr[i].user_id
             }
-            // todo_id++
+            todo_id++
 
             todo.push(obj7)
         }
@@ -107,6 +107,8 @@ function todos(username, password, todo_txt) {
     return todo
 }
 
+todos("johnUwik007", "johnUwik1012", "salom churvaqalar")
+console.log();
 console.log(todo);
 
 
