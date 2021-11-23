@@ -155,6 +155,57 @@
 
 // console.log(gcd_two_number(9, 3));
 
+/* =====================gcd 2========chala============*/
+
+// function gcd_more(arr) {
+//     let res = 0
+//     let array = []
+//     let max = Math.max(...arr)
+//     let min_index = arr.indexOf(Math.min(...arr))
+//     // console.log(min_index);
+//     for (let i = 0; i < arr.length; i++) {
+//         let ar = []
+//         for (let k = 0; k <= max; k++) {
+//             if (arr[i] % k === 0) {
+//                 ar.push(k)
+//             }
+//         }
+//         array.push(ar)
+//     }
+//     for (let l = 0; l < array[min_index].length; l++) {
+//         for (let d = 0; d < array.length; d++) {
+//             if (array[d].includes(array[min_index][l]) && res < array[min_index][l]) {
+//                 res = array[min_index][l]
+//             }
+            
+//         }        
+//     }
+//     console.log(array);
+// }
+
+
+// gcd_more([10, 15, 2, 25, 5])
+
+/* =====================EKUK====================*/
+
+// function EKUK(a, b) {
+//     let i = 1
+//     let ekuk = true
+//     while (ekuk) {
+//         // console.log("dang");
+//         if (i % a === 0 && i % b === 0) {
+//             ekuk = false
+//             return i
+//         }
+//         i++
+//     }
+    
+// }
+
+
+// console.log(EKUK(12, 13));
+
+
 
 
 
