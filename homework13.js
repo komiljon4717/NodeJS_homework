@@ -108,14 +108,20 @@
 
 // console.log(random(20, 1));
 
+/* =====================kasr formatlash=========chala===========*/
+// function kasr_format(a, b) {
+//     console.log(Math.fround(a)); 
+// }
 
+// kasr_format(12.12530)
 
+// /* =====================min max====================*/
 
+// function min_max(arr) {
+//     return Math.max(...arr)
+// }
 
-
-
-
-
+// console.log(min_max([1, 2, 3, 9, 14]));
 
 
 
