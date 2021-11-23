@@ -245,4 +245,23 @@
 
 // console.log(array_clone2([1, 5, 6, 7, 8]));
 
+/*==================first elemnt arrays====================*/
+
+// function first_element_arrays(params) {
+//     return params[0];
+// }
+
+// console.log(first_element_arrays([1, 2, 3, 4]));
+
+
+
+
+
+/*==================last elemnt arrays====================*/
+
+// function last_element_arrays(params) {
+//     return params[params.length - 1];
+// }
+
+// console.log(last_element_arrays([1, 2, 3, 4]));
 
