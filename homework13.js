@@ -125,16 +125,35 @@
 
 /* =====================min====================*/
 
-function max(arr) {
-    return Math.min(...arr)
-}
+// function max(arr) {
+//     return Math.min(...arr)
+// }
 
-console.log(max([1, 2, 3, 9, 14]));
+// console.log(max([1, 2, 3, 9, 14]));
 
+/* =====================gcd====================*/
 
+// function gcd_two_number(a, b) {
+//     let max = 0
+//     let res = 0
+//     if (a >= b) {
+//         max = a
+//     }
+//     else{
+//         max = b
+//     }
+//     for (let i = 1; i <= max; i++) {
+//         if (a % i === 0 && b % i ===0) {
+//             if (res < i) {
+//                 res = i
+//             }
+//         }
+        
+//     }
+//     return res
+// }
 
-
-
+// console.log(gcd_two_number(9, 3));
 
 
 
