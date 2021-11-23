@@ -64,11 +64,21 @@
 // high_low("1 2 3 4 5 6")
 
 
+/*===================find number=================*/
 
+// function find_number(arr) {
+//     for (let i = 1; i <= 10; i++) {
+//         if (arr.includes(i)) {
+//             continue
+//         }
+//         else{
+//             return i
+//         }
+        
+//     }
+// }
 
-
-
-
+// console.log(find_number([10, 2, 5, 3, 1, 6, 9, 8, 7]));
 
 
 
