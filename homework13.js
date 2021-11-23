@@ -222,16 +222,27 @@
 // console.log(is_it_array([1, 2, 3]));
 
 
+/*=======================array clone======================*/
+
+// function array_clone(arr) {
+//     let new_arr = [...arr]
+//     return new_arr
+    
+// }
+
+// console.log(array_clone([1, 2, 3, 4, 5]));
 
 
+// 2-usul
 
 
+// function array_clone2(arg) {
+//     let array = []
+//     array = arg.slice()
+//     arg.push(10)
+//     console.log(array);
+// }
 
-
-
-
-
-
-
+// console.log(array_clone2([1, 5, 6, 7, 8]));
 
 
