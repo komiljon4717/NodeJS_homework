@@ -100,50 +100,46 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =====================math====================*/
-// function base_convert(params) {
-    
+/* =====================math random====================*/
+// function random(a) {
+//     let num = Math.floor(Math.random()* a)
+//     return num
 // }
+
+// console.log(random(20, 1));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
