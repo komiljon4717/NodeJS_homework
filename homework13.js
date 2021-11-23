@@ -108,12 +108,12 @@
 
 // console.log(random(20, 1));
 
-/* =====================kasr formatlash=========chala===========*/
+/* =====================kasr formatlash====================*/
 // function kasr_format(a, b) {
-//     console.log(Math.fround(a)); 
+//     console.log(a.toFixed(b));
 // }
 
-// kasr_format(12.12530)
+// kasr_format(12.12530, 2)
 
 // /* =====================min max====================*/
 
