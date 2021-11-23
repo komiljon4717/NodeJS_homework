@@ -115,15 +115,21 @@
 
 // kasr_format(12.12530, 2)
 
-// /* =====================min max====================*/
+/* =====================max====================*/
 
-// function min_max(arr) {
+// function max(arr) {
 //     return Math.max(...arr)
 // }
 
-// console.log(min_max([1, 2, 3, 9, 14]));
+// console.log(max([1, 2, 3, 9, 14]));
 
+/* =====================min====================*/
 
+function max(arr) {
+    return Math.min(...arr)
+}
+
+console.log(max([1, 2, 3, 9, 14]));
 
 
 
