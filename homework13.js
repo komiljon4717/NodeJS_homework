@@ -28,12 +28,24 @@
 
 // sort_str("assalomu", 'salom', "olma", "it")
 
+/*===================chack=================*/
+// function chack(...args) {
+//     let a = args[args.length - 1]
+//     args.pop()
+//     console.log();
+//     for (let i = 0; i < args[0].length; i++) {
+//         if (args[0][i].includes(a)) {
+//             continue
+//         }
+//         else{
+//             return false
+//         }
+        
+//     }
+//     return true
+// }
 
-
-
-
-
-
+// console.log(chack([[1, 3], [2, 1], [1, 4], [5, 4]], 1));
 
 
 
