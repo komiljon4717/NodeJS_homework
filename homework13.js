@@ -207,9 +207,19 @@
 
 
 
+/*===================================ARRAY============================================*/
 
 
+// function is_it_array(arg) {
+//     if (typeof arg === "object") {
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
 
+// console.log(is_it_array([1, 2, 3]));
 
 
 
