@@ -47,11 +47,21 @@
 
 // console.log(chack([[1, 3], [2, 1], [1, 4], [5, 4]], 1));
 
+/*===================high low=================*/
+// function high_low(arg){
+//     let res = ""
+//     let arr = arg.split(" ")
+//     let max = Math.max(...arr)
+//     res += max + " "
+//     let min = Math.min(...arr)
+//     res += min
+     
+//     console.log(res);
+//     return 
+// }
 
 
-
-
-
+// high_low("1 2 3 4 5 6")
 
 
 
