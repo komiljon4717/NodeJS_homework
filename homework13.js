@@ -265,3 +265,25 @@
 
 // console.log(last_element_arrays([1, 2, 3, 4]));
 
+
+/*====================Colour=====================*/
+
+// function my_colour(arr) {
+//     let str = arr.join("+")
+//     console.log(str);
+// }
+
+// my_colour(["qizil", "yashil", "oq", "qora"])
+
+
+
+
+
+
+
+
+
+
+
+
+
