@@ -303,3 +303,28 @@
 // }
 
 // sort([ 3, 8, 7, 6, 5, -4, 3, 2, 1 ])
+
+/*==================== array eng ko'p element=====================*/
+
+// function find_elemnts(arr) {
+//     let safe = 0
+//     let elem = ''
+//     for (let i = 0; i < arr.length; i++) {
+//         let char = 0
+//         for (let k = 0; k < arr.length; k++) {
+//             if (arr[i] === arr[k]) {
+//                 char++
+
+//             }
+            
+//         }
+//         if (safe < char) {
+//             safe = char
+//             elem = arr[i]
+//         }
+//     }
+//     console.log(elem, safe, "marta");
+// }
+
+
+// find_elemnts([3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3])
