@@ -275,15 +275,31 @@
 
 // my_colour(["qizil", "yashil", "oq", "qora"])
 
+/*====================raqam=====================*/
+
+// function raqam(arg) {
+//     let res = ''
+//     let str = arg.toString()
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] % 2 === 0 && i !== 0 && str[i+1] % 2 ===0 ) {
+//             res += str[i] + '-'
+//         }
+//         else{
+//             res += str[i]
+//         }
+        
+//     }
+//     console.log(res);
+// }
 
 
+// raqam(254687)
 
+/*====================sort array=====================*/
 
+// function sort(arr) {
+//     arr.sort()
+//     console.log(arr);
+// }
 
-
-
-
-
-
-
-
+// sort([ 3, 8, 7, 6, 5, -4, 3, 2, 1 ])
