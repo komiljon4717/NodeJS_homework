@@ -63,9 +63,33 @@
 
 // console.log(logik(0));
 
+/*====================================================*/
+
+// function shaxmat_doskasi(str) {
+//     let arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+//     for (let i = 1; i <= 8; i++) {
+//         for (let k = 0; k < arr.length; k++) {
+//             if (str === i + arr[k]) {
+//                 if (i % 2 !== 0 && k % 2 === 0) {
+//                     console.log("Black");
+//                 }
+//                 else if (i % 2 !== 0 && k % 2 !== 0) {
+//                     console.log("White");
+//                 }
+//                 else if (i % 2 === 0 && k % 2 !== 0) {
+//                     console.log("Black");
+//                 }
+//                 else if (i % 2 === 0 && k % 2 === 0) {
+//                     console.log("White");
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
 
+// shaxmat_doskasi('8h')
 
 
 
