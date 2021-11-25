@@ -50,6 +50,26 @@
 
 // concat([1, 2], [3, 4])
 
+/*==========================================*/
+
+// function logik(num) {
+//     if (num % 2 === 0) {
+//         return num
+//     }
+//     else{
+//         return num += 2
+//     }
+// }
+
+// console.log(logik(0));
+
+
+
+
+
+
+
+
 
 
 
