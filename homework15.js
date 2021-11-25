@@ -16,3 +16,29 @@
 // }
 // convert("JAVASCRIPT")
 
+/*===============================================*/
+
+// function count(arg) {
+//     arg = Math.abs(arg)
+//     let num = 1
+//     while (arg >= 10) {
+//         if (arg / 10 !== 0) {
+//             arg = arg / 10 
+//             num++
+//         }
+        
+       
+//     }
+//     console.log(num);
+// }
+// count(121)
+
+
+
+
+
+
+
+
+
+
