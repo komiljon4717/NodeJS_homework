@@ -31,13 +31,24 @@
 //     }
 //     console.log(num);
 // }
-// count(121)
+// count(0)
 
+/*===============================================*/
 
+// function concat(...args) {
+//     let arr = []
+//     if (args.length > 1) {
+//         for (let i = 0; i < args.length; i++) {
+//             arr.push(...args[i])
+//         }
+//         console.log(arr);
+//     }
+//     else{
+//         console.log(...args);
+//     }
+// }
 
-
-
-
+// concat([1, 2], [3, 4])
 
 
 
