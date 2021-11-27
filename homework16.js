@@ -85,8 +85,18 @@ async function pr10() {
 // })
 
 
+/*=========================await=====================*/
 
+async function pr11() {
+    return 'This is await function'
+}
 
+async function pr011() {
+    let a = await pr11()
+    console.log(a);
+}
+
+// pr011()
 
 
 
