@@ -100,5 +100,49 @@ async function pr011() {
 
 
 
+async function pr12() {
+    return 'Chelsea is champion'
+}
+
+async function pr012() {
+    let a = await pr12()
+    console.log(a);
+}
+
+// pr012()
+
+async function pr13() {
+    return 'Lalula where are you?'
+}
+
+async function pr013() {
+    let a = await pr13()
+    console.log(a);
+}
+
+// pr013()
+
+async function pr14() {
+    return 'Messi is best player'
+}
+
+async function pr014() {
+    let a = await pr14()
+    console.log(a);
+}
+
+// pr014()
+
+async function pr15() {
+    return "Najot ta'lim"
+}
+
+async function pr015() {
+    let a = await pr15()
+    console.log(a);
+}
+
+pr015()
+
 
 
