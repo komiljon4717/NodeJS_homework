@@ -47,13 +47,42 @@ async function pr6() {
     return 'SAlom churvaqalar'
 }
 
-pr6().then((val)=> {
-    console.log(val);
-})
+// pr6().then((val)=> {
+//     console.log(val);
+// })
+
+async function pr7() {
+    return 'Salom NodeJS 146'
+}
+
+// pr7().then((val) => {
+//     console.log(val);
+// })
+
+async function pr8() {
+    return 'Foundation 14'
+}
+
+// pr8().then((value) =>{
+//     console.log(value);
+// })
+
+async function pr9() {
+    return 'Kv bardak'
+}
+
+// pr9().then((val) => {
+//     console.log(val);
+// })
 
 
+async function pr10() {
+    return 'Hello John'
+}
 
-
+// pr10().then((val) => {
+//     console.log(val);
+// })
 
 
 
