@@ -142,7 +142,49 @@ async function pr015() {
     console.log(a);
 }
 
-pr015()
+// pr015()
 
 
+/*=====================aralash=======================*/
+
+async function pr16() {
+    return "Hello bachalar"
+}
+
+// pr16().then((val) => {
+//     console.log(val);
+// })
+
+async function pr17() {
+    return 'NodeJS '
+}
+
+// pr17().then((qiy) => {
+//     console.log(qiy);
+// })
+
+async function pr18() {
+    return 'Javascript'
+}
+
+// pr18().then((val) => {
+//     console.log(val);
+// })
+
+
+async function pr19() {
+    return 'Flutter'
+}
+// pr19().then((val) => {
+//     console.log(val);
+// })
+
+
+async function pr20() {
+    return "O'zMU"
+}
+
+pr20().then((val) => {
+    console.log(val);
+})
 
