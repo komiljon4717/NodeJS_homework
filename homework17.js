@@ -31,12 +31,20 @@
 
 // console.log(logger([[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]));
 
+/*=======================sum and ko'paytma===================================*/
+
+function sum(arr) {
+    let yeg = 0
+    let kop = 1
+    for (let i = 0; i < arr.length; i++) {
+        yeg += arr[i]
+        kop *= arr[i]
+    }
+    console.log(`yeg'indi ${yeg}, ko'paytma ${kop}`);
+}
 
 
-
-
-
-
+sum([1, 2, 3, 4, 5, 6])
 
 
 
