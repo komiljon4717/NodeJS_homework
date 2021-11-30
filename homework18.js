@@ -12,21 +12,29 @@
 
 // count_true([])
 
+/*=======================obj_to_array===============================*/
+
+// function obj_to_array(obj) {
+//     let result = Object.keys(obj).map((key) => [key, obj[key]])
+//     console.log(result);
+// }
+
+// obj_to_array({"a": 1, "b": 2, "c": 3})
+
+
 /*======================================================*/
 
-function obj_to_array(obj) {
-    let result = Object.keys(obj).map((key) => [key, obj[key]])
-    console.log(result);
+
+function arrayOfMultiples(num, length) {
+    let arr = []
+    for (let i = 1; i <= length; i++) {
+        arr.push(num * i)
+        
+    }
+    return arr
 }
 
-obj_to_array({"a": 1, "b": 2, "c": 3})
-
-
-
-
-
-
-
+console.log(arrayOfMultiples(17, 6));
 
 
 
