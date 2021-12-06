@@ -20,7 +20,26 @@
 
 // room_status(["Ali", "Vali", "Eshmat", "Umidjon"])
 
+/*=====================matchstics houses====================*/
 
+function matchstics_houses(num) {
+    if (num === 1) {
+        return 6
+    }
+    else if (num === 2) {
+        return 11
+    }
+    else if (num === 3) {
+        return 16
+    }
+    else if (num > 3) {
+        return (num - 3) * 5 + 16
+    }
+    else{
+        return "Dang kalla qo'ydiz"
+    }
+}
+console.log(matchstics_houses(87));
 
 
 
