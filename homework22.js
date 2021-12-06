@@ -43,28 +43,39 @@
 
 /*=============================calculator==========================*/
 
-function calculator(num1, char, num2) {
-    switch (char) {
-        case "+":
-            return num1 + num2
+// function calculator(num1, char, num2) {
+//     switch (char) {
+//         case "+":
+//             return num1 + num2
             
-        case "-":
-            return num1 - num2
-        case "/":
-            return num1 / num2
-        case "*":
-            return num1 * num2
-        default:
-            return "Dang"
+//         case "-":
+//             return num1 - num2
+//         case "/":
+//             return num1 / num2
+//         case "*":
+//             return num1 * num2
+//         default:
+//             return "Dang"
             
+//     }
+// }
+
+// console.log(calculator(2, "+", 2));
+
+/*===========================================*/
+
+function sum_arr(arr) {
+    let sum = 0
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === Number(arr[i])) {
+            sum += arr[i]
+        }
+        
     }
+    return sum
 }
 
-console.log(calculator(2, "+", 2));
-
-
-
-
+console.log(sum_arr([1, 2, "a", true, 7]));
 
 
 
