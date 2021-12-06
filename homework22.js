@@ -22,28 +22,45 @@
 
 /*=====================matchstics houses====================*/
 
-function matchstics_houses(num) {
-    if (num === 1) {
-        return 6
-    }
-    else if (num === 2) {
-        return 11
-    }
-    else if (num === 3) {
-        return 16
-    }
-    else if (num > 3) {
-        return (num - 3) * 5 + 16
-    }
-    else{
-        return "Dang kalla qo'ydiz"
+// function matchstics_houses(num) {
+//     if (num === 1) {
+//         return 6
+//     }
+//     else if (num === 2) {
+//         return 11
+//     }
+//     else if (num === 3) {
+//         return 16
+//     }
+//     else if (num > 3) {
+//         return (num - 3) * 5 + 16
+//     }
+//     else{
+//         return "Dang kalla qo'ydiz"
+//     }
+// }
+// console.log(matchstics_houses(87));
+
+/*=============================calculator==========================*/
+
+function calculator(num1, char, num2) {
+    switch (char) {
+        case "+":
+            return num1 + num2
+            
+        case "-":
+            return num1 - num2
+        case "/":
+            return num1 / num2
+        case "*":
+            return num1 * num2
+        default:
+            return "Dang"
+            
     }
 }
-console.log(matchstics_houses(87));
 
-
-
-
+console.log(calculator(2, "+", 2));
 
 
 
