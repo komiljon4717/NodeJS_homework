@@ -99,14 +99,26 @@
 
 /*================================================*/
 
-function pifagor(obj1, obj2) {
-    return Math.sqrt(Math.pow((obj1.x - obj2.x), 2) + Math.pow((obj1.y - obj2.y), 2))
+// function pifagor(obj1, obj2) {
+//     return Math.sqrt(Math.pow((obj1.x - obj2.x), 2) + Math.pow((obj1.y - obj2.y), 2))
+// }
+
+// console.log(pifagor({x: 0, y: 0}, {x: 1, y: 1}));
+
+
+/*=======================sum of cubes============================*/
+function sum_of_cubes(arr) {
+    let sum = 0
+    if (arr.length === 0) {
+        return 0
+    }
+    for (let i = 0; i < arr.length; i++) {
+        sum = Math.pow(arr[i], 3)
+    }
+    return sum
 }
 
-
-console.log(pifagor({x: 0, y: 0}, {x: 1, y: 1}));
-
-
+console.log(sum_of_cubes([]));
 
 
 
