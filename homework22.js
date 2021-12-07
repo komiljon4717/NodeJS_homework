@@ -122,20 +122,33 @@
 
 /*=======================slice of pie============================*/
 
-function pie(num1, num2, num3) {
-    if (num2 * num3 < num1) {
-        return true
+// function pie(num1, num2, num3) {
+//     if (num2 * num3 <= num1) {
+//         return true
+//     }
+//     else{
+//         return false
+//     }
+// }
+
+// console.log(pie(11, 5, 3));
+
+
+/*=======================digital clock============================*/
+
+function clock(secunds) {
+    let res = ''
+    let hour = Math.floor(secunds / 3600)
+    let min = Math.floor((secunds % 3600) / 60)
+    let sec = Math.floor((secunds % 3600) % 60)
+    if (hour >= 24) {
+        hour -= 24
     }
-    else{
-        return false
-    }
+    
+    return res += hour +":" + min + ":" + sec
+    
 }
-
-console.log(pie(11, 5, 3));
-
-
-
-
+console.log(clock(87000));
 
 
 
