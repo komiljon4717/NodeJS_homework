@@ -64,24 +64,38 @@
 
 /*===========================================*/
 
-function sum_arr(arr) {
-    let sum = 0
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === Number(arr[i])) {
-            sum += arr[i]
-        }
+// function sum_arr(arr) {
+//     let sum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === Number(arr[i])) {
+//             sum += arr[i]
+//         }
         
+//     }
+//     return sum
+// }
+
+// console.log(sum_arr([1, 2, "a", true, 7]));
+
+/*============================================================*/
+
+function find_number(str) {
+    let arr = str.split(' ')
+    if (arr[1] === "+") {
+        return number(arr[4]) - Number(arr[2]);
     }
-    return sum
+    else if (arr[1] === "-") {
+        return Number(arr[4]) + Number(arr[2]);
+    }
+    else if (arr[1] === "*") {
+        return Number(arr[4]) / Number(arr[2]);
+    }
+    else if (arr[1] === "/") {
+        return Number(arr[4]) * Number(arr[2]);
+    }
 }
 
-console.log(sum_arr([1, 2, "a", true, 7]));
-
-
-
-
-
-
+console.log(find_number("x * 5 = 20"));
 
 
 
