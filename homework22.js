@@ -107,23 +107,31 @@
 
 
 /*=======================sum of cubes============================*/
-function sum_of_cubes(arr) {
-    let sum = 0
-    if (arr.length === 0) {
-        return 0
+// function sum_of_cubes(arr) {
+//     let sum = 0
+//     if (arr.length === 0) {
+//         return 0
+//     }
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = Math.pow(arr[i], 3)
+//     }
+//     return sum
+// }
+
+// console.log(sum_of_cubes([]));
+
+/*=======================slice of pie============================*/
+
+function pie(num1, num2, num3) {
+    if (num2 * num3 < num1) {
+        return true
     }
-    for (let i = 0; i < arr.length; i++) {
-        sum = Math.pow(arr[i], 3)
+    else{
+        return false
     }
-    return sum
 }
 
-console.log(sum_of_cubes([]));
-
-
-
-
-
+console.log(pie(11, 5, 3));
 
 
 
