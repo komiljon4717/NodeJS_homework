@@ -79,27 +79,32 @@
 
 /*============================================================*/
 
-function find_number(str) {
-    let arr = str.split(' ')
-    if (arr[1] === "+") {
-        return number(arr[4]) - Number(arr[2]);
-    }
-    else if (arr[1] === "-") {
-        return Number(arr[4]) + Number(arr[2]);
-    }
-    else if (arr[1] === "*") {
-        return Number(arr[4]) / Number(arr[2]);
-    }
-    else if (arr[1] === "/") {
-        return Number(arr[4]) * Number(arr[2]);
-    }
+// function find_number(str) {
+//     let arr = str.split(' ')
+//     if (arr[1] === "+") {
+//         return number(arr[4]) - Number(arr[2]);
+//     }
+//     else if (arr[1] === "-") {
+//         return Number(arr[4]) + Number(arr[2]);
+//     }
+//     else if (arr[1] === "*") {
+//         return Number(arr[4]) / Number(arr[2]);
+//     }
+//     else if (arr[1] === "/") {
+//         return Number(arr[4]) * Number(arr[2]);
+//     }
+// }
+
+// console.log(find_number("x * 5 = 20"));
+
+/*================================================*/
+
+function pifagor(obj1, obj2) {
+    return Math.sqrt(Math.pow((obj1.x - obj2.x), 2) + Math.pow((obj1.y - obj2.y), 2))
 }
 
-console.log(find_number("x * 5 = 20"));
 
-
-
-
+console.log(pifagor({x: 0, y: 0}, {x: 1, y: 1}));
 
 
 
