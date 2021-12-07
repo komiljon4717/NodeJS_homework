@@ -136,25 +136,34 @@
 
 /*=======================digital clock============================*/
 
-function clock(secunds) {
-    let res = ''
-    let hour = Math.floor(secunds / 3600)
-    let min = Math.floor((secunds % 3600) / 60)
-    let sec = Math.floor((secunds % 3600) % 60)
-    if (hour >= 24) {
-        hour -= 24
+// function clock(secunds) {
+//     let res = ''
+//     let hour = Math.floor(secunds / 3600)
+//     let min = Math.floor((secunds % 3600) / 60)
+//     let sec = Math.floor((secunds % 3600) % 60)
+//     if (hour >= 24) {
+//         hour -= 24
+//     }
+    
+//     return res += hour +":" + min + ":" + sec
+    
+// }
+// console.log(clock(87000));
+
+
+/*=====================================================*/
+
+function paper(num) {
+    let res = 1
+    if (num === 1) {
+        return 1
     }
-    
-    return res += hour +":" + min + ":" + sec
-    
+    for (let i = 1; i < num; i++) {
+        res *= 2
+    }
+    return res / 1000;
 }
-console.log(clock(87000));
 
 
-
-
-
-
-
-
+console.log(paper(5));
 
