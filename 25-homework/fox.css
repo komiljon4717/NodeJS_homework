@@ -1,0 +1,33 @@
+.big-box{
+    border: 5px solid #9e4903;
+    width: 13cm;
+    height: 13.8cm;
+    background-color: rgb(240, 237, 216);
+}
+
+h1{
+    margin: 5%;
+}
+.img{
+    margin: 5%;
+    width: 58mm;
+    height: 45mm;
+    
+    
+}
+img{
+    width: 10cm;
+    height: 4cm;
+    border: 5px solid #bd7941;
+}
+p{
+
+    margin: 5%;
+    border: 5px solid #bd7941;
+    border-style: dashed;
+    background-color: rgb(255, 218, 7);
+    width: 10cm;
+    height: 6cm;
+    overflow: scroll;
+}
+p.dashed {border-style: dashed;}
