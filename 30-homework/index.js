@@ -15,14 +15,24 @@
 
 /*========================================================*/
 
-function removeDublicat(arr) {
-    arr = new Set(arr)
-    return new Array(...arr)
+// function removeDublicat(arr) {
+//     arr = new Set(arr)
+//     return new Array(...arr)
+// }
+// console.log(removeDublicat(["The", "John", "The"]));
+
+
+/*====================================================*/
+
+function mirror(arr) {
+    let newArr = []
+    let a=[...arr]
+    a = a.reverse()
+    arr.pop()
+    return newArr = [...arr, ...a]
+    
 }
-console.log(removeDublicat(["The", "John", "The"]));
-
-
-
+console.log(mirror([1, 2, 3, 4, 5]));
 
 
 
