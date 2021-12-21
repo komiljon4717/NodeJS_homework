@@ -12,27 +12,28 @@
 // console.log(find(['gle', 'go', 'gog', ], 'google'));
 
 
-/*========================================================*/
-function chack(arr) {
-    let obj = {}
-   for (let i = 0; i < arr.length; i++) {
-       if (!obj[arr[i]]) {
-           obj[arr[i]] = 0
-           obj[arr[i]]++
-       }
-       else obj[arr[i]]++
-   }
-//    let max = Object.values(obj)
-   console.log(obj);
+/*==========================20.12.2021==============================*/
+
+
+function chack2(arr) {
+    let safe = {}
+    let obj = arr.reduce((acc, val) => {
+        if (!acc[val]) {
+            acc[val] = 0
+            acc[val]++
+        }else acc[val]++
+        return acc
+    }, {})
+    safe = Object.values(obj)
+    let a = Math.max(...safe)
+    for (const key in obj) {
+        if (obj[key] === a) {
+            return {[key]: obj[key]}
+        }
+    }
 }
 
-chack(['a', 1, 2, 3, 2, 5, 2, 'a'])
-
-
-
-
-
-
+console.log(chack2(['a', 1, 2, 3, 2, 6, 2, 4, 'a']));
 
 
 
