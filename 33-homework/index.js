@@ -14,7 +14,13 @@
 // }
 // findNaN([1, 2, NaN])
 
+/*=======================================================*/
 
+// function reverseArr(arr) {
+//     return arr.sort((a, b) => b -a)
+// }
+
+// console.log(reverseArr([1, 2, 6, 4, 7, 8, 9, 7, 9]))
 
 
 
