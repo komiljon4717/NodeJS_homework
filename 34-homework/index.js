@@ -18,9 +18,29 @@ let arr = ['a', 'd', 'b', 'c', 'f']
 
 console.log(arr.mySort((a, b) => b - a));
 
+/*===========================================================*/
 
 
+let data = [
+    {income: 500, expanse: 200},
+    {income: 400, expanse: 100},
+    {income: 150, expanse: 145},
+    {income: 230, expanse: 320},
+]
 
+function finance(arr, key) {
+    return arr.reduce((acc, val) => {
+        if (key === 'total') {
+            acc += val.income - val.expanse
+            return acc
+        }
+        acc += val[key]
+        return acc
+    }, 0)
+}
+
+
+console.log(finance(data, 'expanse'));
 
 
 
